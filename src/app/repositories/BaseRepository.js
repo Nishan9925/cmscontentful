@@ -1,6 +1,6 @@
-import { createClient } from 'contentful'
-import { parseModelsEntries, parsePaginatedEntries } from '../common/parsers'
-import Singleton from '../abstracts/Singleton'
+import { createClient } from 'contentful';
+import { parseModelsEntries, parsePaginatedEntries } from '../../common/parsers';
+import Singleton from '../../abstracts/Singleton';
 
 export default class BaseRepository extends Singleton {
   cdaClient
